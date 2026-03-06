@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/cache/
+.streamlit/**/.cache/
+
+# Model artifacts & indexes (reproducible from scripts)
+models/faiss_index.bin
+models/image_embeddings.npy
+models/product_ids.npy
+
+# Generated 3D outputs
+data/outputs/
+# If you want sample outputs in Git, comment the line above and ignore only large/binary:
+# data/outputs/**/*.ply
+# data/outputs/**/*.glb
+# data/outputs/**/*.obj
+
+# Local config / secrets
+.env
+
+# Jupyter / temporary
+*.ipynb_checkpoints
+*.tmp
