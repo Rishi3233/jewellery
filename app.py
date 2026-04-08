@@ -79,10 +79,7 @@ def show_login_page():
             else:
                 st.error("❌ Wrong username or password. Please try again.")
         st.markdown("---")
-        st.caption("Demo Credentials:")
-        st.caption("Customer  → customer1 / cust123")
-        st.caption("Designer  → designer1 / design123")
-        st.caption("Admin     → admin / admin123")
+
 
 
 def logout():
